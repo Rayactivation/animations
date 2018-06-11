@@ -1,0 +1,11 @@
+build*
+node_modules
+.DS_Store
+**/*.pyo
+**/*.pyc
+**/.idea
+.idea
+
+.#*
+
+*.egg-info
