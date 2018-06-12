@@ -1,0 +1,17 @@
+{
+  "name": "hall-ave-garage-lights",
+  "author": "Mike Lambert, David Foregger, Tony Nicolaides",
+  "version": "1.0.0",
+  "description": "Animation Framework for lights off a drum kit. Python backed. JS just used for simulation",
+  "private": true,
+  "devDependencies": {
+    "opc-simulator": "0.0.1"
+  },
+  "dependencies": {},
+  "config": {
+    "effects-directory": "/Users/david/code/personal/git/rayactivation/animations/effects",
+    "layout-file": "/Users/david/code/personal/git/rayactivation/animations/layout/block_ray_layout_animated.json",
+    "servers-file": "/Users/david/code/personal/git/rayactivation/animations/layout/servers_local.json",
+    "fps": 30
+  }
+}
