@@ -16,6 +16,23 @@ class SolidBackground(Effect):
         print "Created with color", self.color
 
 
+class SolidBoom(Effect):
+    """Always return a singular color. Can be bound top/bottom and
+    left-right (wrap-around not supported yet)
+    """
+
+    def __init__(self,
+                 color=(128, 128, 128)
+                 #color=(0,0,0)
+        ):
+        Effect.__init__(self)
+        self.color = color
+
+    def next_frame(self, pixels, t):
+        pixels[STATE.layout.section['boom']] = self.color
+        pixels[STATE.layout.section['pole']] = self.color
+
+
 def printpixel(idx, pixel):
     print idx, pixel
 
@@ -53,7 +70,8 @@ SCENES = [
     Scene(
         name= "GradientExample",
         effects=[
-            Gradient()
+            Gradient(),
+            SolidBoom()
         ]
     )
 ]
