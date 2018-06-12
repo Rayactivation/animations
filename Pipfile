@@ -9,7 +9,7 @@ verify_ssl = true
 name = "pypi-test"
 
 [packages]
-simple_af = "==0.0.6"
+simple_af = "==0.1.0"
 
 [dev-packages]
 
