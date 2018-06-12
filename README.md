@@ -13,6 +13,8 @@ npx opc-simulator
 ```
 In another, run the simple-af framework
 ```
+#This may run slow. You can run with --skip-lock to speed it up
+pipenv install 
 pipenv shell
 python -m simple_af
 ```
