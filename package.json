@@ -5,7 +5,7 @@
   "description": "Animation Framework for lights off a drum kit. Python backed. JS just used for simulation",
   "private": true,
   "devDependencies": {
-    "opc-simulator": "0.0.1"
+    "opc-simulator": "0.0.2"
   },
   "dependencies": {},
   "config": {
